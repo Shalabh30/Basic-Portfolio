@@ -1,0 +1,249 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+}
+
+body {
+	background-image: url("../images/circles-light.png");
+	/*width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;*/
+}
+
+#header {
+	width: 100%;
+	background-color: #ffffff;
+	border-bottom: solid;
+	border-color: #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	color: #777777;
+	overflow: auto;
+	margin-bottom: 30px;
+}
+
+aside {
+	background-color: #4aaaa5;
+	width: 20%;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	font-size: 28px;
+	float: left;
+	margin-left: 100px;
+}
+
+nav {
+	font-size: 18px;
+	color: #777777;
+	padding-top: 15px;
+	margin-left: 500px;
+}
+
+#left {
+	background-color: #ffffff;
+	width: 50%;
+	border: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	float: left;
+	overflow: auto;
+	margin-left: 100px;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	text-align: left;
+	font-size: 25px;
+	border-bottom: solid;
+	border-color: #cccccc;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	float: top;
+}
+
+img {
+	float: left;
+	padding-left: 20px;
+	margin-right: 20px;
+}
+
+
+p {
+	text-align: left;
+	padding-left: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 14px;
+	padding-right: 20px;
+	}
+
+#right {
+	width: 20%;
+	background-color: #ffffff;
+	margin-left: 40px;
+	float: left;
+	height: 150px;
+	text-align: center;
+	border: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+}
+
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: solid;
+	border-color: #cccccc;
+	color: #4aaaa5;
+	padding-bottom: 10px;
+}
+
+div {
+	text-align: center;
+	padding-left: 20px;
+}
+
+footer {
+	clear: both;
+	background-color: #666666;
+	padding: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	border-top: solid;
+	border-color: #4aaaa5;
+	border-width: 8px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	}
+
+#left-contact {
+	background-color: #ffffff;
+	width: 50%;
+	border: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	float: left;
+	overflow: auto;
+	margin-left: 100px;
+	margin-bottom: 30px
+}	
+
+#form {
+	text-align: left;
+	padding-left: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 14px;
+	padding-right: 20px;
+}
+
+button {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 10px 20px 10px 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+	float: left;
+	margin-left: 20px;
+}
+
+
+
+#left-portfolio {
+	background-color: #ffffff;
+	width: 50%;
+	border: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	float: left;
+	overflow: auto;
+	margin-left: 100px;
+	margin-bottom: 30px;
+}
+/*
+#images {
+	background-color: #ffffff;
+	width: 50%;
+	border: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	float: left;
+	overflow: auto;
+	margin-left: 100px;
+	margin-bottom: 30px;
+	position: relative;
+	text-align: center;
+}
+*/
+.row1 {
+	float: left;
+}
+.City {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	float: left;
+	position: relative;
+}
+
+.Pet {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	float: left;
+	position: relative;	
+}
+
+.row2 {
+	float: left;
+}
+
+.Nature {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	float: left;
+	position: relative;
+}
+.NightLife {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	float: left;
+	position: relative;
+}
+
+.Technology {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	float: left;
+	margin-left: 15px;
+	position: relative;
+	clear: both;
+}
+
+
+.description {
+	bottom: 40px;
+	/*left: 125px;*/
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 79%;
+	text-align: center;
+	position: absolute;
+	margin-left: 20px;
+}
+
+a:hover {
+	background-color: lightblue;
+}
+
